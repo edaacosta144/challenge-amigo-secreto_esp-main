@@ -160,3 +160,77 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+.button-reset {
+    margin-top: 10px;
+    background-color: #888;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.button-reset:hover {
+    background-color: #555;
+}
+.share-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.button-share {
+    background-color: #25D366;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-share:hover {
+    background-color: #128C7E;
+}
+@media (max-width: 600px) {
+    .main-title {
+        font-size: 36px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-name, .button-container {
+        width: 100%;
+        max-width: none;
+        border-radius: 25px;
+        margin: 5px 0;
+    }
+
+    .input-name {
+        border-radius: 25px;
+        border-right: 2px solid #000;
+    }
+
+    .button-container {
+        width: auto;
+    }
+
+    button {
+        width: 100%;
+        max-width: none;
+        border-radius: 25px;
+    }
+
+    .button-draw img {
+        margin-right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}
